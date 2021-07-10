@@ -121,6 +121,7 @@ int terminate(image* i){
 	free(i->pixels);
 	free(i->colorMap);
 	free(i);
+	return 0;
 }
 
 long powInt(int b, int e){
